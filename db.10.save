@@ -1,0 +1,24 @@
+$ORIGIN .
+$TTL 604800	; 1 week
+10.in-addr.arpa		IN SOA	poloasir.com. root.poloasir.com. (
+				73         ; serial
+				604800     ; refresh (1 week)
+				86400      ; retry (1 day)
+				2419200    ; expire (4 weeks)
+				604800     ; minimum (1 week)
+				)
+			NS	poloasir.com.
+$ORIGIN 2.10.10.in-addr.arpa.
+$TTL 300	; 5 minutes
+103			PTR	Fran-PC.poloasir.com.
+106			PTR	PROFESOR.poloasir.com.
+110			PTR	debian.poloasir.com.
+200			PTR	administrador1.poloasir.com.
+$TTL 604800	; 1 week
+$TTL 300	; 5 minutes
+227			PTR	LCR-PC.poloasir.com.
+245			PTR	probando.poloasir.com.
+
+213                     PTR     dns.poloasir.com.
+214			PTR	ldap.poloasir.com.
+223			PTR	correo.poloasir
